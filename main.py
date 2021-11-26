@@ -13,7 +13,7 @@ pygame.display.set_caption("Game!")
 level = Level(level_map, WIN)
 
 # https://www.youtube.com/watch?v=YWN8GcmJ-jA&t=344s
-# 25:30 min
+# 51:00 min
 
 def main():
 
