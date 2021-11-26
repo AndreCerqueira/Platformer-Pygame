@@ -9,7 +9,7 @@ pygame.mixer.init()
 FPS = 60
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Game!")
-
+clock = pygame.time.Clock()
 level = Level(level_map, WIN)
 
 # https://www.youtube.com/watch?v=YWN8GcmJ-jA&t=344s
@@ -17,9 +17,7 @@ level = Level(level_map, WIN)
 
 def main():
 
-    clock = pygame.time.Clock()
     run = True
-
     while run:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
